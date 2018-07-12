@@ -8,11 +8,11 @@ import Grid from '../layout/grid'
 import NavigationBar from 'carbon-react/lib/components/navigation-bar'
 
 //partials components
-
-//O com´ponente MenuLateral possui os links de sair e os demais
+//O componente MenuLateral possui os links de sair e os demais
 import MenuLateral from './menus/menu-lateral-topo/menu-lateral-topo'
 import MenuModulosTopo from './menus/menu-modulos-topo/menu-modulos-topo'
 import MenuModulos from './menus/menu-modulos/menu-modulos'
+import Propaganda from './propaganda'
 
 export default class Header extends Component {
     constructor(props) {
@@ -26,9 +26,6 @@ export default class Header extends Component {
         this.setState({...this.state, menu:data })
     }
     componentDidMount() {
-        console.log('done')
-        const btnDefaultClick = document.getElementById('1');
-        btnDefaultClick.click();
     }
         
 
@@ -58,6 +55,7 @@ export default class Header extends Component {
                     </NavigationBar>
                 </div>
                 <MenuModulos  lista={this.state.menu}/>
+                <Propaganda />
             </header>
         )
     }

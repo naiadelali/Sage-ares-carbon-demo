@@ -60,7 +60,15 @@
     height: 32px;
     width: 113px;
 }
-
+.ui-body {
+    padding-top: 100px;
+}
+.ui-propaganda {
+    position: fixed;
+    top: 38px;
+    right: 0px;
+    z-index: 9999;
+}
 
 /*-----Menu-------*/
 .UIMenu {

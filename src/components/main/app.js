@@ -1,18 +1,22 @@
-import '../common/template/dependencies'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+//components interno
 import Routes from './routes'
 import Header from  '../common/template/header'
-//import SideBar from '../common/template/sidebar'
 import Footer from '../common/template/footer'
-//import Routes from './routes'
+import '../common/template/dependencies'
+import 'jquery/dist/jquery'
+//components
+import AppWrapper from 'carbon-react/lib/components/app-wrapper/app-wrapper'
 
 export default props => (
     <div> 
         <Header />
-        <div className='container'>
-           <Routes />
+        <div className='ui-body'>
+           <AppWrapper>
+                <Routes />
+           </AppWrapper>
         </div>
         <Footer />
     </div>

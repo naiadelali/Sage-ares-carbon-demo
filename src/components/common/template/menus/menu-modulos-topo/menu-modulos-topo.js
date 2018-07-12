@@ -10,15 +10,23 @@ export default props => {
         //lista de menus do topo -- futuramente transformar em redux e pega de uma api
         const menus = [
             {icon: 'chart_line', id: 1, lg: 'finances',default:true, permissoes:[
-                {nome: "financeiro", url: "teste", id: "1"},
-                {nome: "dois", url: "#", id: "2", submenu:{nome: "submenu", url: "#", id: "1"}}]
+                    {nome: "Cadastro", url: "#", id: "1", submenu:[{nome: "Cadastro financeiro", url: "/#/bank", id: "1"}]},
+                    {nome: "Programação", url: "#", id: "2", submenu:[{nome: "submenu 1", url: "#", id: "1"},{nome: "submenu 2", url: "#", id: "1"}]},
+                    {nome: "Extrato", url: "#", id: "3", submenu:[{nome: "submenu 1", url: "#", id: "1"},{nome: "submenu 2", url: "#", id: "1"}]},
+                    {nome: "Relatórios", url: "#", id: "4", submenu:[{nome: "submenu 1", url: "#", id: "1"},{nome: "submenu 2", url: "#", id: "1"}]},
+                    {nome: "Menu sem submenu", url: "https://carbon.sage.com/components/menu", id: "5"},
+                ]
             },
             {icon: 'gift', id: 2, lg: 'stock', default:false,permissoes:[
-                {nome: "botao", url: "#", id: "1"},
-                {nome: "sdfdsf", url: "#", id: "2"}]
+                    {nome: "Estoque", url: "#", id: "1", submenu:[{nome: "Cadastro financeiro", url: "#", id: "1"}]},
+                    {nome: "Programação", url: "#", id: "2", submenu:[{nome: "submenu 1", url: "#", id: "1"},{nome: "submenu 2", url: "#", id: "1"}]}
+                ]
             },
             {icon: 'delivery', id: 3, lg: 'sales',default:false, permissoes:[
-                {nome: "botao", url: "#", id: "1"}]
+                {nome: "Menu sem submenu", url: "https://carbon.sage.com/components/menu", id: "5"},
+                {nome: "Estoque", url: "#", id: "1", submenu:[{nome: "Cadastro financeiro", url: "#", id: "1"}]},
+                {nome: "Programação", url: "#", id: "2", submenu:[{nome: "submenu 1", url: "#", id: "1"},{nome: "submenu 2", url: "#", id: "1"}]}
+                ]
             }
         ];
 

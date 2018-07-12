@@ -8,7 +8,7 @@ module.exports = require('carbon-factory/webpack.config')({
   host:'localhost',
   resolve: {
     alias: {
-      i18n: path.resolve(__dirname, 'src/i18n.js'),
+      i18n: path.resolve(__dirname, 'src/i18n.js')
     }
   },
 

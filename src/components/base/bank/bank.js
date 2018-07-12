@@ -6,7 +6,7 @@ import Heading from 'carbon-react/lib/components/heading';
 
 export default props => (
   <div>
-    <Heading title="CADASTRO DE BANCO"
+    <Heading title="EXEMPLO PAGINA"
              subheader="Este Cadastro Cadastra Banco"
              separator={ true } />
 
