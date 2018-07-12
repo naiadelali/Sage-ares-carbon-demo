@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sample Component renders a button 1`] = `
+<Button
+  as="secondary"
+  disabled={false}
+  onClick={[Function]}
+  size="medium"
+  subtext=""
+  theme="blue"
+>
+  An Example Button!
+</Button>
+`;

@@ -1,0 +1,20 @@
+{
+  "pt": {
+    "translation": {
+      "key": "hello world",
+      "menu":{
+        "lateral":{
+          "contact":"Contato",
+          "alert":"Notificação",
+          "conf":"configuração",
+          "logout":"Sair"
+        },
+        "modulos":{
+          "finances":"Finanças",
+          "stock":"Estoque",
+          "sales":"Vendas"
+        }
+      }
+    }
+  }
+}

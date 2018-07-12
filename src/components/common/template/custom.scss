@@ -1,0 +1,412 @@
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #3c424f;
+    color: #fff;
+    text-align: center;
+}
+
+.logoSage {
+    max-height: 100%;
+    max-width: 90%;
+}
+
+.linha-vertical {
+    background: #e0e0e0;
+    width: 1px;
+    content: "";
+    display:block;
+    position: absolute;
+    top:6px;
+    bottom: 6px;
+    right: 0;
+    min-height: 30px;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer__background {
+    background-color: #3c424f;
+    left: 0;
+    right: 0;
+}
+  
+.footerOld {
+    position: fixed;
+    bottom: 0px;
+    align-items: center;
+    flex-direction: row;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+
+#application-logo .sage-ares-title {
+    background: url(/images/sage-ares-logo.png) left top transparent no-repeat;
+    display: block;
+    float: left;
+    background-size: 100px;
+    /* margin-top: 5px; */
+    height: 32px;
+    width: 113px;
+}
+
+
+/*-----Menu-------*/
+.UIMenu {
+    margin: 0px;
+} 
+
+#application-logo .cobrand-logo img {
+    height: 100%
+}
+
+#application-logo .cobrand-tagline {
+    color: #FFF;
+    font-size: 11px;
+    float: left;
+    line-height: 11px;
+    margin: 5px 15px 0 0
+}
+
+#ui-globalnav {
+    background-color: #3C424F;
+    min-height: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 996
+}
+#ui-globalnav .container-fluid{
+    padding: none
+}
+#ui-globalnav{
+    .divider {
+        width: 1px;
+        height: 33px;
+        background: var(--gray);
+        margin-left: 10px;
+        margin-right: 10px
+    }
+}
+
+#ui-globalnav .carbon-navigation-bar__content {
+       line-height: 0px;
+}
+
+#ui-globalnav .carbon-input-icon{
+    background:transparent;
+    color:#fff
+}
+#ui-globalnav .carbon-input-icon{
+    border-color: transparent;
+}
+#ui-globalnav  .common-input__input{
+
+    border-color: transparent;
+}
+#ui-globalnav  .common-input__input:hover{
+    box-shadow:none;
+   background: #525460;
+}
+#ui-globalnav .common-input__input{
+    background: transparent;
+    color: #FFF;
+
+}
+
+#ui-globalnav p {
+    margin: 12px 0
+}
+
+#ui-globalnav li {
+    float: left
+}
+
+#ui-globalnav .change_password_link,
+#ui-globalnav ul a {
+    color: #EBEDEF;
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 12px 9px 12px 9px;
+    position: relative;
+    white-space: nowrap
+}
+
+#ui-globalnav i {
+    margin-right: 5px;
+    position: relative;
+    top: -1px
+}
+
+#user-menu {
+    float: right;
+    margin-top: 4px
+}
+#menu-mod{
+    li{
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border-right: 1px var(--grey-dark-blue-60) solid;
+        border-left: 1px var(--grey-dark-blue-60) solid;
+        
+    }
+.menu-item {
+   
+    :hover{
+        background: var(--success);
+        // padding-right: 12px
+    }
+}
+}
+
+#user-menu .messages.new-message i {
+    -webkit-animation: pulse 1.4s linear infinite;
+    -moz-animation: pulse 1.4s linear infinite;
+    -ms-animation: pulse 1.4s linear infinite;
+    animation: pulse 1.4s linear infinite
+}
+
+#user-menu a:hover:before {
+    border-bottom: 5px solid #1B1D21;
+    border-top: none !important;
+    top: 29px !important
+}
+
+#user-menu a:hover:after {
+    left: -25px !important;
+    top: 34px !important
+}
+
+#ui-head {
+    -moz-box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
+    -webkit-transition: box-shadow 0.5s;
+    -moz-transition: box-shadow 0.5s;
+    -o-transition: box-shadow 0.5s;
+    transition: box-shadow 0.5s;
+    background-color: #FFF;
+    padding: 0 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 995;
+}
+/*END: menu - head*/
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none
+}
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none
+}
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold
+}
+
+del {
+    text-decoration: line-through
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0
+}
+
+html {
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+a:hover,
+a:active {
+    outline: none
+}
+
+a,
+a:active,
+a:visited {
+    color: #255BC7;
+    text-decoration: none
+}
+
+a:hover {
+    color: #1963f6;
+    text-decoration: none
+}
+
+ul,
+ol {
+    margin-left: 2em
+}
+
+ol {
+    list-style-type: decimal
+}
+
+nav ul,
+nav li {
+    margin: 0;
+    list-style: none;
+    list-style-image: none
+}
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding: 15px
+}
+
+button,
+input,
+select,
+textarea {
+    width: auto;
+    margin: 0;
+    font-size: 100%;
+  
+    vertical-align: baseline
+}
+
+button {
+    overflow: visible
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: text-top
+}
+
+label,
+input[type="button"],
+input[type="submit"],
+input[type="image"],
+button {
+    cursor: pointer
+}
+
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+.invisible {
+    visibility: hidden
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    min-width: 958px
+}
+
+body {
+    background-color: #EBEDEF;
+    color: #4D4F53;
+    font-size: 12px;
+    line-height: 16px;
+    width: 100%
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 5px;
+    font-weight: 300
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 12px;
+    font-weight: 300
+}
+
+h3 {
+    font-size: 1.6em;
+    margin-bottom: 16px;
+    font-weight: 300
+}
+
+h4 {
+    font-size: 1.4em;
+    margin-bottom: 14px;
+    font-weight: 300
+}
+
+h5 {
+    font-size: 1.2em;
+    margin-bottom: 12px;
+    font-weight: 300
+}
+
+h6 {
+    font-size: 1.1em;
+    margin-bottom: 11px;
+    font-weight: 300
+}
+
+p {
+    margin-bottom: 10px
+}
+
+.align-left {
+    text-align: left
+}
+
+.align-center {
+    text-align: center
+}
+
+.align-right,
+.text-right {
+    text-align: right
+}
+
+.overflow-wrapper {
+    overflow: hidden;
+    text-overflow: ellipsis
+}
