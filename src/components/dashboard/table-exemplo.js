@@ -13,7 +13,7 @@ export default class TableExemplo extends Component {
     }
 
     pageSize = () => {
-        return '10';
+        return '20';
     }
     buildRows = () => {
         const rows = [];
@@ -38,7 +38,7 @@ export default class TableExemplo extends Component {
         return rows;
     };
     loadingRow = () => {
-        const loadingRow = 'payments__history-grid-table-loading';
+        const loadingRow = 'nome-classe-custom';
         return (
           <TableRow
             key={ loadingRow }
@@ -91,7 +91,7 @@ export default class TableExemplo extends Component {
                     className="foo"
                     paginate={ true }
                     currentPage='1'
-                    pageSize='10'
+                    pageSize={ this.pageSize() }
                     totalRecords='100'
                     thead={ this.tableHeader() }
                 >

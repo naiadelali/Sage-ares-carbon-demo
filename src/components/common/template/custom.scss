@@ -50,7 +50,17 @@
     text-align: center;
     width: 100%;
 }
+.ui-propaganda span{
+    background: url(/images/propaganda.png) no-repeat 0 0;
+	width: 172px;
+    height: 113px;
+    display: block;
+    background-position: -5px -38px;
+}
 
+.ui-propaganda span:hover{
+    background-position: -6px 0px;
+}
 #application-logo .sage-ares-title {
     background: url(/images/sage-ares-logo.png) left top transparent no-repeat;
     display: block;

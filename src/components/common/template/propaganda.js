@@ -6,7 +6,7 @@ import Link from 'carbon-react/lib/components/link'
 export default props => (
     <div className="ui-propaganda">
         <Link target="_blank" href="https://carbon.sage.com/components/link">
-            <img src="/images/propaganda.png" />
+            <span  />
         </Link>
         
     </div>

@@ -15,7 +15,6 @@ export default class ListaModulo extends Component {
             <div className="menu-item">
                 <Link  icon={this.props.icon} href="#" id={this.props.id} 
                  onClick={((e) => this.props.onClick(e, this.props))} 
-                 ref="dfsd"
                  tabbable={ true } > {i18n.t(`menu.modulos.${this.props.lg}`)} </Link>
             </div>
         </li>
